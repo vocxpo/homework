@@ -31,14 +31,14 @@ class ViewController: UIViewController {
         mySlider.setThumbImage(thumbImageNormal, for: .normal)
         let thumbImageHighlighted = #imageLiteral(resourceName: "SliderThumb-Highlighted")
         mySlider.setThumbImage(thumbImageHighlighted, for: .highlighted)
-        let insets = UIEdgeInsets(top: 0, left: 14, bottom: 0, right: 14)
+//        let insets = UIEdgeInsets(top: 0, left: 14, bottom: 0, right: 14)
         let trackLeftImage = #imageLiteral(resourceName: "TrackLeft")
-        let trackLeftResizable =
-            trackLeftImage.resizableImage(withCapInsets: insets)
+        let trackLeftResizable = trackLeftImage
+//            trackLeftImage.resizableImage(withCapInsets: insets)
         mySlider.setMinimumTrackImage(trackLeftResizable, for: .normal)
         let trackRightImage = #imageLiteral(resourceName: "TrackRight")
-        let trackRightResizable =
-            trackRightImage.resizableImage(withCapInsets: insets)
+        let trackRightResizable = trackRightImage
+//            trackRightImage.resizableImage(withCapInsets: insets)
         mySlider.setMaximumTrackImage(trackRightResizable, for: .normal)
         
     }
