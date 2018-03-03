@@ -45,7 +45,7 @@ class TableViewController: UITableViewController {
         let cellName: String
         let r = indexPath.row
         
-        if indexPath.row % 2 == 0 {
+        if r % 2 == 0 {
             cellName = "labelCell1"
         } else {
             cellName = "labelCell2"
