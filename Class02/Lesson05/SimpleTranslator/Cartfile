@@ -1,0 +1,4 @@
+github "Alamofire/Alamofire" ~> 4.9.1
+github "SnapKit/SnapKit" ~> 5.0.0
+github "soffes/CommonCrypto"
+github "soffes/Crypto"
